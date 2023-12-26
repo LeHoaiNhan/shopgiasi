@@ -11,6 +11,7 @@ namespace Store.Models
         public DateTime CreateDate { get; set; }
         public int CategoryID {  get; set; }
         public string URLProduct { get; set; } 
+        public string Description { get; set; }
     }
     public class ProductJoinCategory
     {
@@ -22,5 +23,6 @@ namespace Store.Models
         public int CategoryID { get; set; }
         public string URLProduct { get; set; }
         public string URLCategory { get; set; }
+        public string Description { get; set; }
     }
 }
