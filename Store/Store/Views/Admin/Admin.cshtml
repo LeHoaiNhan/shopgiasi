@@ -1,0 +1,155 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Admin";
+}
+<link href="~/lib/2022/css/kendo-ui-2022-r2.css" rel="stylesheet" />
+<script src="~/lib/2022/js/jszip.min.js"></script>
+<script src="~/lib/2022/js/kendo.all.min-v2022.2.510.js"></script>
+<script src="~/lib/2022/js/kendo.messages.vi-vn.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<div style=" padding-bottom: 4rem;"></div>
+<div id="grid"></div>
+
+<div id="window"> 
+    @using (Html.BeginForm("CreateProduct", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <table>
+            <tr hidden><td>ID</td><td><input id="ID" name="ID"  /></td></tr>
+            <tr><td>Name</td><td><input id="Name" name="Name" /></td></tr>
+            <tr><td>Price</td><td><input id="Price" name="Price" /></td></tr>
+            <tr><td>CategoryID</td><td><input id="CategoryID" name="CategoryID" /></td></tr>
+            <tr><td>URLProduct</td><td><input id="URLProduct" name="URLProduct" /></td></tr>
+            <tr><td>img</td><td><input id="img" /><input id="file" name="file" type="file" /></td></tr>
+            <tr><td>img1</td><td><input id="img1" /><input id="file1" name="file1" type="file" /></td></tr>
+            <tr><td>img2</td><td><input id="img2" /><input id="file2" name="file2" type="file" /></td></tr>
+            <tr><td>img3</td><td><input id="img3" /><input id="file3" name="file3" type="file" /></td></tr>
+            <tr><td>img4</td><td><input id="img4" /><input id="file4" name="file4" type="file" /></td></tr>
+            <tr><td>img5</td><td><input id="img5" /><input id="file5" name="file5" type="file" /></td></tr>
+            <tr><td>Description</td><td><textarea id="Description" style="width:20rem ; height:10rem"></textarea></td></tr>
+            <tr><td></td><td><input type="submit" value="Lưu"/></td></tr>
+        </table>
+
+
+         
+    } 
+</div>
+<script>
+    $(document).ready(function () {
+        $("#window").kendoWindow({
+            actions: ["Maximize", "Close"],
+        }).data("kendoWindow").close(); 
+        $("#grid").kendoGrid({
+            height: screen.height - 50,
+            navigatable: true,
+            resizable: true, 
+            columnMenu: {
+                filterable: false
+            }
+            , columns: [
+                { field: "id", title: "mã", width: 60, attributes: { style: "text-align:center;" } },
+                { field: "name", title: "name" }, 
+                { title: "img", template:"<img src='#:img#' class='grid_img_product'>"+
+                        "<img src='#:img1#' class='grid_img_product'>" +
+                        "<img src='#:img2#' class='grid_img_product'>" +
+                        "<img src='#:img3#' class='grid_img_product'>" +
+                        "<img src='#:img4#' class='grid_img_product'>" +
+                        "<img src='#:img5#' class='grid_img_product'>" 
+                }, 
+                { template: "<button onclick='editSP(#:id#)' style=\"color:blue\">✎</button>", width: 60, attributes: { style: "text-align:center;" } },
+                { template: "<button  onclick='deleteSP(#:id#)' style=\"color:red;\">🅧</button>", width: 60, attributes: { style: "text-align:center;" } }]
+            ,dataSource:{
+                transport: {
+                    read: function (options) { 
+                        $.ajax({
+                            async: false,
+                            url: '/Home/listProduct',
+                            data: { numberCount: 1000 },
+                            dataType: 'json',
+                            type: 'GET',
+                            success: function (result) {
+                                options.success(result);
+                            },
+                            error: function (err) {
+                                alert("Lỗi admin - grid!");
+                                console.log(err)
+                            },
+                        })
+                    }
+                }
+            },
+        });
+    });
+
+    function deleteSP(id) { 
+        if (confirm("xóa SP:" + id) == true) {
+            alert("You pressed OK!");
+        }
+    }
+    function editSP(id) {
+        $.ajax({
+            async: false,
+            url: '/Product/listProductDetail',
+            data: { id: id },
+            dataType: 'json',
+            type: 'GET',
+            success: function (result) {
+                debugger
+                if (result.length > 0) { 
+                    $("#ID").val(id);
+                    $("#Name").val(result[0].name);
+                    $("#Price").val(result[0].price);
+                    $("#CategoryID").val(result[0].categoryID);
+                    $("#URLProduct").val(result[0].urlProduct);
+                    $("#Description").val(result[0].description);
+                    $("#img").val(result[0].img);
+                    $("#img1").val(result[0].img1);
+                    $("#img2").val(result[0].img2);
+                    $("#img3").val(result[0].img3);
+                    $("#img4").val(result[0].img4);
+                    $("#img5").val(result[0].img5);
+                }
+            },
+            error: function (err) {
+                alert("Lỗi admin 43!");
+                console.log(err)
+            },
+        })
+        $("#window").data("kendoWindow").open().title("sản phẩm:" + id); 
+    }
+
+    var data = new FormData();
+    $("#file").change(function () {
+        var files = $("#file").get(0).files;
+        if (files.length > 0) {
+            data.append("HelpSectionImages", files[0]);
+        }
+        // $.ajax({
+        //     url: resolveUrl("~/Admin/HelpSection/AddTextEditorImage/"),
+        //     type: "POST",
+        //     processData: false,
+        //     contentType: false,
+        //     data: data,
+        //     success: function (response) {
+        //         //code after success
+
+        //     },
+        //     error: function (er) {
+        //         alert(er);
+        //     }
+
+        // });
+    });
+
+
+</script>
+
+<style>
+    .grid_img_product{
+        height:50px;
+        width:50px;
+    }
+</style>

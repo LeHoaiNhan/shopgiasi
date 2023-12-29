@@ -8,7 +8,7 @@ namespace Store.Models.AppDbContext
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
-        public DbSet<Product> Products { get; set; } = null!;
-        public DbSet<Category> Categorys { get; set; } = null!;
+        public DbSet<Product> Product { get; set; } = null!;
+        public DbSet<Category> Category { get; set; } = null!;
     }
 }

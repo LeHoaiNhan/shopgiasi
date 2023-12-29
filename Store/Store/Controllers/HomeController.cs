@@ -35,7 +35,7 @@ namespace Store.Controllers
         #region PRODUCTION
         public async Task<ActionResult<List<ProductJoinCategory>>> listProduct(int maxID=0, int numberCount = 0)
         {
-            var result = await _context.Products.FromSqlRaw($"SELECT TOP {numberCount} P.*,C.URLCategory FROM dbo.Product P JOIN Category C on P.CategoryID = C.ID WHERE P.ID >{maxID}").ToListAsync(); 
+            var result = await _context.Product.FromSqlRaw($"SELECT TOP {numberCount} P.*,C.URLCategory FROM dbo.Product P JOIN Category C on P.CategoryID = C.ID WHERE P.ID >{maxID}").ToListAsync(); 
             return Ok(result);
         }
              

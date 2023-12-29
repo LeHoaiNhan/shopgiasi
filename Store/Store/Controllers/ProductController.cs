@@ -25,7 +25,7 @@ namespace Store.Controllers
         [HttpGet]
         public async Task<ActionResult> listProductDetail(int id=0)
         {
-            var result = await _context.Products.FromSqlRaw($"SELECT TOP 1 * FROM dbo.Product  WHERE ID = {id}").ToListAsync();
+            var result = await _context.Product.FromSqlRaw($"SELECT TOP 1 * FROM dbo.Product  WHERE ID = {id}").ToListAsync();
             return Ok(result);
         }
     }

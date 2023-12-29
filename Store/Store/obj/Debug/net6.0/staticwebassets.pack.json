@@ -13,8 +13,52 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\img\\product\\2.png",
+      "PackagePath": "staticwebassets\\img\\product\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\img\\product\\Product231229",
+      "PackagePath": "staticwebassets\\img\\product"
+    },
+    {
+      "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\img\\product\\Product231229051258",
+      "PackagePath": "staticwebassets\\img\\product"
+    },
+    {
+      "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\img\\product\\Product231229051315",
+      "PackagePath": "staticwebassets\\img\\product"
+    },
+    {
+      "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\img\\product\\Untitled-(1).png",
+      "PackagePath": "staticwebassets\\img\\product\\Untitled-(1).png"
+    },
+    {
+      "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\img\\product\\z5010004999234_c1093abd40cef405f43e0243100ad085.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\z5010004999234_c1093abd40cef405f43e0243100ad085.jpg"
+    },
+    {
       "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\lib\\2022\\css\\kendo-ui-2022-r2.css",
+      "PackagePath": "staticwebassets\\lib\\2022\\css\\kendo-ui-2022-r2.css"
+    },
+    {
+      "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\lib\\2022\\js\\jquery.min-v3.3.1.js",
+      "PackagePath": "staticwebassets\\lib\\2022\\js\\jquery.min-v3.3.1.js"
+    },
+    {
+      "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\lib\\2022\\js\\jszip.min.js",
+      "PackagePath": "staticwebassets\\lib\\2022\\js\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\lib\\2022\\js\\kendo.all.min-v2022.2.510.js",
+      "PackagePath": "staticwebassets\\lib\\2022\\js\\kendo.all.min-v2022.2.510.js"
+    },
+    {
+      "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\lib\\2022\\js\\kendo.messages.vi-VN.js",
+      "PackagePath": "staticwebassets\\lib\\2022\\js\\kendo.messages.vi-VN.js"
     },
     {
       "Id": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\wwwroot\\lib\\bootstrap\\LICENSE",
