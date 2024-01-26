@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\Store.csproj": {}
+    "D:\\github\\shopgiasi\\Store\\Store\\Store.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\Store.csproj": {
+    "D:\\github\\shopgiasi\\Store\\Store\\Store.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\Store.csproj",
+        "projectUniqueName": "D:\\github\\shopgiasi\\Store\\Store\\Store.csproj",
         "projectName": "Store",
-        "projectPath": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\Store.csproj",
+        "projectPath": "D:\\github\\shopgiasi\\Store\\Store\\Store.csproj",
         "packagesPath": "C:\\Users\\nhanlh6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\obj\\",
+        "outputPath": "D:\\github\\shopgiasi\\Store\\Store\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://repo-isc.fpt.net/repository/customer-accounts-receivable/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

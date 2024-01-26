@@ -18,9 +18,9 @@
     @using (Html.BeginForm("CreateProduct", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
     {
         <table>
-            <tr hidden><td>ID</td><td><input id="ID" name="ID"  /></td></tr>
+            <tr ><td>ID</td><td><input id="ID" name="ID"  /></td></tr>
             <tr><td>Name</td><td><input id="Name" name="Name" /></td></tr>
-            <tr><td>Price</td><td><input id="Price" name="Price" /></td></tr>
+            <tr><td>Price</td><td><input type="number" id="Price" name="Price" /></td></tr>
             <tr><td>CategoryID</td><td><input id="CategoryID" name="CategoryID" /></td></tr>
             <tr><td>URLProduct</td><td><input id="URLProduct" name="URLProduct" /></td></tr>
             <tr><td>img</td><td><input id="img" /><input id="file" name="file" type="file" /></td></tr>
@@ -29,7 +29,7 @@
             <tr><td>img3</td><td><input id="img3" /><input id="file3" name="file3" type="file" /></td></tr>
             <tr><td>img4</td><td><input id="img4" /><input id="file4" name="file4" type="file" /></td></tr>
             <tr><td>img5</td><td><input id="img5" /><input id="file5" name="file5" type="file" /></td></tr>
-            <tr><td>Description</td><td><textarea id="Description" style="width:20rem ; height:10rem"></textarea></td></tr>
+            <tr><td>Description</td><td><textarea id="Description" name="Description" style="width:20rem ; height:10rem"></textarea></td></tr>
             <tr><td></td><td><input type="submit" value="Lưu"/></td></tr>
         </table>
 
@@ -50,8 +50,8 @@
                 filterable: false
             }
             , columns: [
-                { field: "id", title: "mã", width: 60, attributes: { style: "text-align:center;" } },
-                { field: "name", title: "name" }, 
+                { field: "ID", title: "mã", width: 60, attributes: { style: "text-align:center;" } },
+                { field: "Name", title: "name" }, 
                 { title: "img", template:"<img src='#:img#' class='grid_img_product'>"+
                         "<img src='#:img1#' class='grid_img_product'>" +
                         "<img src='#:img2#' class='grid_img_product'>" +
@@ -59,8 +59,8 @@
                         "<img src='#:img4#' class='grid_img_product'>" +
                         "<img src='#:img5#' class='grid_img_product'>" 
                 }, 
-                { template: "<button onclick='editSP(#:id#)' style=\"color:blue\">✎</button>", width: 60, attributes: { style: "text-align:center;" } },
-                { template: "<button  onclick='deleteSP(#:id#)' style=\"color:red;\">🅧</button>", width: 60, attributes: { style: "text-align:center;" } }]
+                { template: "<button onclick='editSP(#:ID#)' style=\"color:blue\">✎</button>", width: 60, attributes: { style: "text-align:center;" } },
+                { template: "<button  onclick='deleteSP(#:ID#)' style=\"color:red;\">🅧</button>", width: 60, attributes: { style: "text-align:center;" } }]
             ,dataSource:{
                 transport: {
                     read: function (options) { 
@@ -99,12 +99,12 @@
             success: function (result) {
                 debugger
                 if (result.length > 0) { 
-                    $("#ID").val(id);
-                    $("#Name").val(result[0].name);
-                    $("#Price").val(result[0].price);
-                    $("#CategoryID").val(result[0].categoryID);
-                    $("#URLProduct").val(result[0].urlProduct);
-                    $("#Description").val(result[0].description);
+                    $("#ID").val(result[0].ID);
+                    $("#Name").val(result[0].Name);
+                    $("#Price").val(result[0].Price);
+                    $("#CategoryID").val(result[0].CategoryID);
+                    $("#URLProduct").val(result[0].URLProduct);
+                    $("#Description").val(result[0].Description);
                     $("#img").val(result[0].img);
                     $("#img1").val(result[0].img1);
                     $("#img2").val(result[0].img2);

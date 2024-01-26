@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O1Dr8dvPd0WN6N3PTMwPcpYVmuGZzc0fBFxxYkPN0U29pA6ZTaYQwwJ6jkT/PFu9OhzCusJMGUKqw9ow+Iyq1g==",
+  "dgSpecHash": "t2R/rAc9ObZlG3uHLBZpQ8SbrJDvv8+6ATBrZFEzTi5U47aYmrzmRee4q+PW1RuarrTaSejdLNUiCfyFVh2Axg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nhanlh6\\source\\repos\\Store\\Store\\Store.csproj",
+  "projectFilePath": "D:\\github\\shopgiasi\\Store\\Store\\Store.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhanlh6\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nhanlh6\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -63,5 +63,12 @@
     "C:\\Users\\nhanlh6\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\nhanlh6\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://repo-isc.fpt.net/repository/customer-accounts-receivable/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

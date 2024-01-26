@@ -8,11 +8,11 @@
         public int CategoryID { get; set; }
         public string URLProduct { get; set; }
         public string Description { get; set; }
-        public Img? file { get; set; }
-        public Img? file1 { get; set; }
-        public Img? file2 { get; set; }
-        public Img? file3 { get; set; }
-        public Img? file4 { get; set; }
-        public Img? file5 { get; set; }
+        public IFormFile file { get; set; }
+        public IFormFile file1 { get; set; }
+        public IFormFile file2 { get; set; }
+        public IFormFile file3 { get; set; }
+        public IFormFile file4 { get; set; }
+        public IFormFile file5 { get; set; }
     }
 }

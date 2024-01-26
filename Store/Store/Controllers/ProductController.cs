@@ -16,10 +16,11 @@ namespace Store.Controllers
             _context = context;
         }
 
-        [Route("chi-tiet-san-pham/{category}/{nameProduct}/{id}")]
+        [Route("chi-tiet-san-pham/{nameProduct}/{id}")]
+        [Route("Home/chi-tiet-san-pham/{nameProduct}/{id}")]
         public IActionResult ProductDetail(int ?id)
         {
-            ViewBag.IDProduct = id;
+            ViewBag.IDProduct = id; 
             return View();
         }
         [HttpGet]
