@@ -136,8 +136,10 @@
 
 <input id="IDProduct" value="@ViewBag.IDProduct" hidden />
 <script>
+     
     let productMax = 0;
     $(document).ready(function () {
+        document.getElementById("menu_1").style.fontWeight = "bold"
         loadDataDetail();
     });
     function loadDataDetail() {
@@ -159,7 +161,7 @@
             }
         });
     }
-</script>
+</script> 
  
     
  
