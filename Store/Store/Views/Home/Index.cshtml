@@ -1,8 +1,9 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-
-<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="padding-bottom: 2rem;">
+﻿@model Store.Models.HomeModel;
+@{
+    ViewData["Title"] = "Trang Chủ"; 
+} 
+<input hidden id="CategoryID" value="@Model.CategoryID" />
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div style="background-color:grey;height:200px;"></div>
@@ -11,7 +12,7 @@
             <div style="background-color:black;height:200px;"></div>
         </div>
         <div class="carousel-item">
-            <div style="background-color:white;height:200px;"></div>
+            <div style="background-color:#aaddcc;height:200px;"></div>
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -23,62 +24,61 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-<div class="row">
-    <div class="col-12 col-md-4 col-lg-3">
-        <ul class="list-group">
-            <li class="list-group-item active">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
+
+
+<section class="bg-light">
+    <div class="container mt-4">
+        <h2 class="fw-bolder p-2">Related products</h2>
+        <div class="slick_center" style="background-color:azure">
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+        </div>
     </div>
-    <div class="col-12 col-md-8 col-lg-9">
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="listProduction"> </div>
-        <div><button onclick="loadData()">load more</button></div>
+</section>
+
+<section class="bg-light">
+    <div class="container mt-4">
+        <h2 class="fw-bolder p-2">Related products</h2>
+        <div class="slick_center" style="background-color:azure">
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+            <div><img src="~/img/product/6c757d.jpg" /></div>
+        </div>
     </div>
-</div>
-<script>
-    let productMax = 0;
+</section>
+
+<script> 
     $(document).ready(function () {
-        document.getElementById("menu_1").style.fontWeight = "bold"
-        loadData();
-    });
-    function loadData() {
-        $.ajax({
-            url: "/Home/listProduct",
-            data: { "maxID": productMax, "numberCount":8 }
-                , success: function (result) { 
-                    if (result.length > 0) {
-                        let _child = '';
-                        for (let i = 0; i < result.length; i++) {
-                             // _child += "<div class='col-6 col-sm-3'><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID 
-                             // + "' ><div> <div style='background-color:gray;width:100%;min-height: 150px;position: relative;overflow: hidden;background-position: center center;' ><img src='" + result[i].img + "' alt='" + result[i].URLProduct
-                             //     + "' style='object-fit: contain;width:100%' ></div> <div class='featured__item__text'> <h6><a href='#'> " + result[i].name + " </a></h6> <h5>" + result[i].price + " </h5> </div> </div></a></div>";
-
-
-                        _child += " <div class='col mb-5' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID +"'>"             
-                                + " <div class='card h-100' >                                                                                    "
-                            + " <img class='card-img-top' style='max-height: 300px' src='" + result[i].img + "' alt='" + result[i].URLProduct + "'/>"
-                                + " <div class='card-body p-4' >                                                                                 "
-                                + " <div class='text-center' >                                                                                   "
-                                + " <h5 class='fw-bolder' >  " + result[i].name + " </h5>                                                                  "
-                                + " $40.00 - >" + result[i].price + "                                                                                              "
-                                + " </div>                                                                                                       "
-                                + " </div>                                                                                                       "
-                                + " <div class='card-footer p-4 pt-0 border-top-0 bg-transparent' >                                              "
-                                + " <div class='text-center' > <a class='btn btn-outline-dark mt-auto' href = '#' > View options </a></div>      "
-                                + " </div>                                                                                                       "
-                                + " </div>  </a>                                                                                                 "
-                                + " </div>                                                                                                       "
-                        }
-                        productMax = productMax+result[result.length - 1].ID                                                                           
-                        $('#listProduction').append(_child);
-                    } else {
-                        alert("Không có sản phẩm được load!")
-                    }
-                
-            }
-        }); 
-    } 
+        
+        $('.slick_center').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            prevArrow: false,
+            nextArrow: false
+        });
+    }); 
 </script>

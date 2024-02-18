@@ -1,0 +1,148 @@
+﻿@model Store.Models.HomeModel;
+@{
+    ViewData["Title"] = "Sương Kids";
+}
+<input hidden id="CategoryID" value="@Model.CategoryID" />
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="padding-bottom: 2rem;">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div style="background-color:grey;height:200px;"></div>
+        </div>
+        <div class="carousel-item">
+            <div style="background-color:black;height:200px;"></div>
+        </div>
+        <div class="carousel-item">
+            <div style="background-color:#aaddcc;height:200px;"></div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="row">
+    <div class="col-12 col-md-4 col-lg-3" id="listCategory" style="border-radius:0.25rem">
+    </div>
+    <div class="col-12 col-md-8 col-lg-9">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="listProduction"> </div>
+        <div><button onclick="loadmore()">load more</button></div>
+    </div>
+</div>
+
+
+<script>
+    let productMax = 0, check = 0;
+    $(document).ready(function () {
+        document.getElementById("menu_1").style.fontWeight = "bold"
+        loadData(); 
+
+    });
+    function loadData() {
+        listProduct();
+        $.ajax({
+            url: "/Home/listCategory",
+            data: { "CategoryID": $('#CategoryID').val(), Type: 2 }
+            , success: function (result) {
+                if (result.length > 0) {
+                    let _child = '';
+                    for (let i = 0; i < result.length; i++) {
+
+                        _child += "<button class='list-group-item d-flex list-group-item-action justify-content-between align-items-center' id='Category_" + result[i].ID + "' onclick='Category_Click(" + result[i].ID + ")'>" + result[i].Name + "<span class='badge badge-primary badge-pill' style='background-color: #007bff;'> " + result[i].ProductNumber + " </span></button>"
+                        //  _child += "<button type='button' id='Category_" + result[i].ID + "' onclick='Category_Click(" + result[i].ID + ")' class='list-group-item list-group-item-action' >" + result[i].Name + "</button>";
+                    }
+                    $('#listCategory').append(_child);
+                    document.getElementById("Category_" + $('#CategoryID').val()).className += " active";
+                } else {
+                    alert("Không tìm thấy danh mục!")
+                }
+            }
+        });
+    }
+    function Category_Click(CategoryID) {
+        $('#CategoryID').val(CategoryID)
+        listProduct();
+        if (check == 1) {
+            var items = document.getElementById("listCategory").getElementsByClassName("list-group-item");
+            for (var i = 0; i < items.length; i++) {
+                items[i].classList.remove("active");
+            }
+            document.getElementById("Category_" + $('#CategoryID').val()).className += " active";
+        }
+    }
+    function loadmore() {
+        check = 0;
+        $.ajax({
+            url: "/Home/listProduct",
+            async: false,
+            data: { "maxID": productMax, "numberCount": 8, CategoryID: $('#CategoryID').val(), Type: 2 }
+            , success: function (result) {
+                if (result.length > 0) {
+                    let _child = '';
+                    for (let i = 0; i < result.length; i++) {
+                        _child += " <div class='col mb-5' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "'>"
+                            + " <div class='card h-100' >                                                                                    "
+                            + " <img class='card-img-top' style='max-height: 300px' src='" + result[i].img + "' alt='" + result[i].URLProduct + "'/>"
+                            + " <div class='card-body p-4' >                                                                                 "
+                            + " <div class='text-center' >                                                                                   "
+                            + " <h5 class='fw-bolder' >  " + result[i].Name + " </h5>                                                                  "
+                            + " $40.00 - >" + result[i].Price + "                                                                                              "
+                            + " </div>                                                                                                       "
+                            + " </div>                                                                                                       "
+                            + " <div class='card-footer p-4 pt-0 border-top-0 bg-transparent' >                                              "
+                            + " <div class='text-center' > <a class='btn btn-outline-dark mt-auto' href = '#' > View options </a></div>      "
+                            + " </div>                                                                                                       "
+                            + " </div>  </a>                                                                                                 "
+                            + " </div>                                                                                                       "
+                    }
+                    $('#listProduction').append(_child);
+                    productMax = productMax + result[result.length - 1].ID
+                    check = 1;
+                } else {
+                    alert("Không tìm thấy sản phẩm!")
+                    check = 0;
+                }
+
+            }
+        });
+    }
+    function listProduct() {
+        check = 0;
+        $.ajax({
+            url: "/Home/listProduct",
+            async: false,
+            data: { "maxID": 0, "numberCount": 8, CategoryID: $('#CategoryID').val(), Type: 2 }
+            , success: function (result) {
+                if (result.length > 0) {
+                    let _child = '';
+                    for (let i = 0; i < result.length; i++) {
+                        _child += " <div class='col mb-5' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "'>"
+                            + " <div class='card h-100' >                                                                                    "
+                            + " <img class='card-img-top' style='max-height: 300px' src='" + result[i].img + "' alt='" + result[i].URLProduct + "'/>"
+                            + " <div class='card-body p-4' >                                                                                 "
+                            + " <div class='text-center' >                                                                                   "
+                            + " <h5 class='fw-bolder' >  " + result[i].Name + " </h5>                                                                  "
+                            + " $40.00 - >" + result[i].Price + "                                                                                              "
+                            + " </div>                                                                                                       "
+                            + " </div>                                                                                                       "
+                            + " <div class='card-footer p-4 pt-0 border-top-0 bg-transparent' >                                              "
+                            + " <div class='text-center' > <a class='btn btn-outline-dark mt-auto' href = '#' > View options </a></div>      "
+                            + " </div>                                                                                                       "
+                            + " </div>  </a>                                                                                                 "
+                            + " </div>                                                                                                       "
+                    }
+                    document.getElementById("listProduction").innerHTML = _child;
+                    productMax = result[result.length - 1].ID
+                    check = 1;
+                } else {
+                    alert("Không sản phẩm nào được tìm thấy!")
+                    check = 0;
+                }
+
+            }
+        });
+    }
+</script>

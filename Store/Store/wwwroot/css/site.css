@@ -1,18 +1,21 @@
 html {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 @media (min-width: 768px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
-html {
+/*html {
   position: relative;
   min-height: 100%;
 }
 
 body {
   margin-bottom: 60px;
-}
+}*/
+
+/*custom bootstrap*/
+/*index home*/ 

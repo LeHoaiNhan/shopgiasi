@@ -1,5 +1,10 @@
 ﻿namespace Store.Models
-{ 
+{
+    public class HomeModel
+    {
+        public int CategoryID {  get; set; }
+    }
+
     public class Img
     {
         public int ID { get; set; }
@@ -14,5 +19,5 @@
         public IFormFile file3 { get; set; }
         public IFormFile file4 { get; set; }
         public IFormFile file5 { get; set; }
-    }
+    } 
 }

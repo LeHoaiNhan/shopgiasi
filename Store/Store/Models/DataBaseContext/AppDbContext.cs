@@ -1,5 +1,6 @@
-﻿ 
+﻿
 using Microsoft.EntityFrameworkCore;
+using Store.Models.Table;
 
 namespace Store.Models.AppDbContext
 {
@@ -10,5 +11,6 @@ namespace Store.Models.AppDbContext
         }
         public DbSet<Product> Product { get; set; } = null!;
         public DbSet<Category> Category { get; set; } = null!;
+        public DbSet<CategoryJoinProduct> CategoryJoinProduct { get; set; } = null!;
     }
 }
