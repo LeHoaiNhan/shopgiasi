@@ -364,7 +364,7 @@ hr {
     font-size: calc(1.34375rem + 1.125vw)
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .h1, h1 {
         font-size: 2.1875rem
     }
@@ -374,7 +374,7 @@ hr {
     font-size: calc(1.3rem + .6vw)
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .h2, h2 {
         font-size: 1.75rem
     }
@@ -384,7 +384,7 @@ hr {
     font-size: calc(1.27813rem + .3375vw)
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .h3, h3 {
         font-size: 1.53125rem
     }
@@ -394,7 +394,7 @@ hr {
     font-size: calc(1.25625rem + .075vw)
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .h4, h4 {
         font-size: 1.3125rem
     }
@@ -641,7 +641,7 @@ legend {
     width: 100%
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     legend {
         font-size: 1.5rem
     }
@@ -709,7 +709,7 @@ progress {
     line-height: 1.2
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .display-1 {
         font-size: 5rem
     }
@@ -721,7 +721,7 @@ progress {
     line-height: 1.2
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .display-2 {
         font-size: 4.5rem
     }
@@ -733,7 +733,7 @@ progress {
     line-height: 1.2
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .display-3 {
         font-size: 4rem
     }
@@ -745,7 +745,7 @@ progress {
     line-height: 1.2
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .display-4 {
         font-size: 3.5rem
     }
@@ -757,7 +757,7 @@ progress {
     line-height: 1.2
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .display-5 {
         font-size: 3rem
     }
@@ -769,7 +769,7 @@ progress {
     line-height: 1.2
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .display-6 {
         font-size: 2.5rem
     }
@@ -867,7 +867,7 @@ progress {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1140px
     }
@@ -884,7 +884,7 @@ progress {
     --fc-breakpoint-sm: 576px;
     --fc-breakpoint-md: 768px;
     --fc-breakpoint-lg: 992px;
-    --fc-breakpoint-xl: 1200px;
+    --fc-breakpoint-xl: 140vh;
     --fc-breakpoint-xxl: 1400px
 }
 
@@ -2125,7 +2125,7 @@ progress {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .col-xl {
         flex: 1 0 0%
     }
@@ -5138,7 +5138,7 @@ textarea.form-control-lg {
         }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .dropdown-menu-xl-start {
         --bs-position: start
     }
@@ -5863,7 +5863,7 @@ textarea.form-control-lg {
             }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .navbar-expand-xl {
         flex-wrap: nowrap;
         justify-content: flex-start
@@ -7059,7 +7059,7 @@ textarea.form-control-lg {
             }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .list-group-horizontal-xl {
         flex-direction: row
     }
@@ -7794,7 +7794,7 @@ textarea.form-control-lg {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .modal-xl {
         --fc-modal-width: 1140px
     }
@@ -7938,7 +7938,7 @@ textarea.form-control-lg {
 
 .tooltip {
     --fc-tooltip-zindex: 1080;
-    --fc-tooltip-max-width: 200px;
+    --fc-tooltip-max-width: 40vh;
     --fc-tooltip-padding-x: 0.5rem;
     --fc-tooltip-padding-y: 0.25rem;
     --fc-tooltip-margin:;
@@ -8820,7 +8820,7 @@ textarea.form-control-lg {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .offcanvas-xl {
         --fc-offcanvas-height: auto;
         --fc-offcanvas-border-width: 0;
@@ -9657,7 +9657,7 @@ textarea.form-control-lg {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .sticky-xl-top {
         position: sticky;
         top: 0;
@@ -20674,7 +20674,7 @@ textarea.form-control-lg {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .float-xl-start {
         float: left !important
     }
@@ -25314,7 +25314,7 @@ textarea.form-control-lg {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .fs-1 {
         font-size: 2.1875rem !important
     }
@@ -25528,7 +25528,7 @@ textarea.form-control-lg {
     top: -9px
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .navbar-default .dropdown-menu {
         display: block;
         opacity: 0;
@@ -26706,7 +26706,7 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 140vh) {
     .docs-content {
         margin: 5rem 3rem
     }
@@ -27694,13 +27694,13 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
     z-index: 1034
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 140vh) {
     .navbar-glass {
         width: 100%
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 140vh) {
     .main-wrapper {
         display: flex;
         min-height: 100%
@@ -27713,7 +27713,7 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
     width: calc(100% - 280px)
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 140vh) {
     .main-content-wrapper {
         width: 100%
     }
@@ -27863,7 +27863,7 @@ table tr:last-child td {
 .slider-arrow {
     display: flex;
     justify-content: flex-end;
-    max-width: 200px;
+    max-width: 40vh;
     position: relative;
     top: unset;
     transform: unset
@@ -29682,7 +29682,7 @@ span.flatpickr-weekday {
 
         .ql-snow .ql-tooltip a.ql-preview {
             display: inline-block;
-            max-width: 200px;
+            max-width: 40vh;
             overflow-x: hidden;
             text-overflow: ellipsis;
             vertical-align: top

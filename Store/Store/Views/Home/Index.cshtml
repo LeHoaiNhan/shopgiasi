@@ -1,18 +1,18 @@
 ﻿@model Store.Models.HomeModel;
 @{
-    ViewData["Title"] = "Trang Chủ"; 
-} 
+    ViewData["Title"] = "Trang Chủ";
+}
 <input hidden id="CategoryID" value="@Model.CategoryID" />
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <div style="background-color:grey;height:200px;"></div>
+            <div style="background-color:grey;height:40vh;"></div>
         </div>
         <div class="carousel-item">
-            <div style="background-color:black;height:200px;"></div>
+            <div style="background-color:black;height:40vh;"></div>
         </div>
         <div class="carousel-item">
-            <div style="background-color:#aaddcc;height:200px;"></div>
+            <div style="background-color:#aaddcc;height:40vh;"></div>
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -25,61 +25,71 @@
     </button>
 </div>
 
-
-<section class="bg-light">
-    <div class="container mt-4">
-        <h2 class="fw-bolder p-2">Related products</h2>
-        <div class="slick_center" style="background-color:azure">
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-        </div>
-    </div>
-</section>
-
-<section class="bg-light">
-    <div class="container mt-4">
-        <h2 class="fw-bolder p-2">Related products</h2>
-        <div class="slick_center" style="background-color:azure">
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-            <div><img src="~/img/product/6c757d.jpg" /></div>
-        </div>
-    </div>
-</section>
-
-<script>  
+<div id="ProductReview"></div>
+ 
+<script>
     $(document).ready(function () {
 
-        document.getElementById("menu_0").style.fontWeight = "bold"
-        $('.slick_center').slick({
-            infinite: true,
-            slidesToShow: 5,
-            slidesToScroll: 2,
+        document.getElementById("menu_0").style.fontWeight = "bold"  
+        $.ajax({
+            url: "/Home/ProductReview",
+            async: false,
+            success: function (result) {  
+                if (result.length > 0) {
+                    let _child = '';
+                    var _Object = result.reduce(function (r, a) {
+                        r[a.PageID] = r[a.PageID] || [];
+                        r[a.PageID].push(a);
+                        return r;
+                    }, Object.create(null)); 
+                     
+                    for (let i = 1; i <= Object.keys(_Object).length; i++) {
+                        _child = "<section class='bg-light'>"
+                            +"<div class='container mt-4'>"
+                            + "<h2 class='fw-bolder p-2'><a href='Home/Store?PageID=" + _Object[i][0].PageID + "&CategoryID=" + _Object[i][0].CategoryID + "'>" + _Object[i][0].PageName + "</a></h2>"
+                            + "<div class='ProductReview'>"
+                        for (let i2 = 0; i2 < _Object[i].length; i2++) {
+                            _child += "     <div class='col-2 col-md-3 col-xl-4 mb-5' "//style='max-width: 250px !important'>                                                                                                     "
+                                +"            <a href='chi-tiet-san-pham/" + _Object[i][i2].URLProduct + "/" + _Object[i][i2].ID + "'> </a>                                                                      "
+                                +"            <div class='card h-100'>                                                                                                "
+                                +"                <a href = 'chi-tiet-san-pham/" + _Object[i][i2].URLProduct + "/" + _Object[i][i2].ID + "'>                                                                     "
+                                +"                    <img class='card-img-top' style = 'max-height: 300px' src = '" + _Object[i][i2].img + "' alt = '" + _Object[i][i2].URLProduct + "'>   "
+                                +"                    <div class='card-body p-4'>                                                                                     "
+                                +"                        <div class='text-center'>                                                                                   "
+                                +"                            <h5 class='fw-bolder'> " + _Object[i][i2].Name + " </h5> " + _Object[i][i2].Price + "                                            "
+                                +"                        </div></div></a>                                                                                            "
+                                +"                <div class='card-footer p-4 pt-0 border-top-0 bg-transparent'>                                                      "
+                                +"                    <a href='" + _Object[i][i2].URLProduct + "'></a>                                                               "
+                                +"                    <div class='text-center'>                                                                                       "
+                                +"                        <a href='" + _Object[i][i2].URLProduct + "'> </a>                                                          "
+                                +"                        <a class='btn btn-outline-dark mt-auto' href = '" + _Object[i][i2].URLProduct + "'> Chi Tiết </a>          "
+                                +"                    </div></div></div></div>                                                                                        "
+   
+                            }
+                        _child += "</div></div></section>"
+                        $('#ProductReview').append(_child);
+                    }
+
+
+                    
+                } else {
+                    alert("Không tìm thấy danh sảm phẩm!")  
+                }
+
+            }, error: function (err) {
+                console.log(err);
+                alert("Lỗi load ProductReview!")
+            }
+        });
+        var ratio = 6 / window.devicePixelRatio;
+        $('.ProductReview').slick({
+            slidesToShow: ratio,
+           // slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
             prevArrow: false,
             nextArrow: false
-        });
-    }); 
+        }); 
+
+    });
 </script>

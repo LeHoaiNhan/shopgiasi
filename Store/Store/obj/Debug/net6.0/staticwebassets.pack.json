@@ -1,335 +1,335 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Store.bundle.scp.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Store.bundle.scp.css",
       "PackagePath": "staticwebassets\\Store.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\css\\site.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\css\\theme.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\css\\theme.css",
       "PackagePath": "staticwebassets\\css\\theme.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\favicon.ico",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\6c757d.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\6c757d.jpg",
       "PackagePath": "staticwebassets\\img\\product\\6c757d.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\DSC_9645-FB.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\DSC_9645-FB.jpg",
       "PackagePath": "staticwebassets\\img\\product\\DSC_9645-FB.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\png-clipart-pink-and-yellow-party-hat-with-bow-illustration-party-hat-birthday-birthday-hats-holidays-hat-thumbnail.png",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\png-clipart-pink-and-yellow-party-hat-with-bow-illustration-party-hat-birthday-birthday-hats-holidays-hat-thumbnail.png",
       "PackagePath": "staticwebassets\\img\\product\\png-clipart-pink-and-yellow-party-hat-with-bow-illustration-party-hat-birthday-birthday-hats-holidays-hat-thumbnail.png"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\pngtree-celebrate-birthday-fireworks-illustration-png-image_4636235.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\pngtree-celebrate-birthday-fireworks-illustration-png-image_4636235.jpg",
       "PackagePath": "staticwebassets\\img\\product\\pngtree-celebrate-birthday-fireworks-illustration-png-image_4636235.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\unnamed.png",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\unnamed.png",
       "PackagePath": "staticwebassets\\img\\product\\unnamed.png"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121236780_2be27bb4ddd0e3b3e0b1fedd371d2f3b.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121236780_2be27bb4ddd0e3b3e0b1fedd371d2f3b.jpg",
       "PackagePath": "staticwebassets\\img\\product\\z5049121236780_2be27bb4ddd0e3b3e0b1fedd371d2f3b.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121237800_9c05dcfc020e131bac8800c9cdf0735b.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121237800_9c05dcfc020e131bac8800c9cdf0735b.jpg",
       "PackagePath": "staticwebassets\\img\\product\\z5049121237800_9c05dcfc020e131bac8800c9cdf0735b.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121250279_c8cdd09187b414d4a450a35b43f1e035.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121250279_c8cdd09187b414d4a450a35b43f1e035.jpg",
       "PackagePath": "staticwebassets\\img\\product\\z5049121250279_c8cdd09187b414d4a450a35b43f1e035.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121257321_97973ed502d087b995b1eec92177b28d.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121257321_97973ed502d087b995b1eec92177b28d.jpg",
       "PackagePath": "staticwebassets\\img\\product\\z5049121257321_97973ed502d087b995b1eec92177b28d.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121270350_0cc51e2f941bf8e294cea8b66472662f.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121270350_0cc51e2f941bf8e294cea8b66472662f.jpg",
       "PackagePath": "staticwebassets\\img\\product\\z5049121270350_0cc51e2f941bf8e294cea8b66472662f.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121290587_f1b1ce0189fe876244ca929030977164.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121290587_f1b1ce0189fe876244ca929030977164.jpg",
       "PackagePath": "staticwebassets\\img\\product\\z5049121290587_f1b1ce0189fe876244ca929030977164.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121296445_bd82a028ee75ffb3bfa9b1237338287c.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121296445_bd82a028ee75ffb3bfa9b1237338287c.jpg",
       "PackagePath": "staticwebassets\\img\\product\\z5049121296445_bd82a028ee75ffb3bfa9b1237338287c.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121299222_f98fa654decad3a9bf8f23319d89b54b.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121299222_f98fa654decad3a9bf8f23319d89b54b.jpg",
       "PackagePath": "staticwebassets\\img\\product\\z5049121299222_f98fa654decad3a9bf8f23319d89b54b.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121324481_0e8d159c86bd56846227f7f2bf10f256.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121324481_0e8d159c86bd56846227f7f2bf10f256.jpg",
       "PackagePath": "staticwebassets\\img\\product\\z5049121324481_0e8d159c86bd56846227f7f2bf10f256.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121325629_3e1f747e33f63472c056d27112912e4d.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121325629_3e1f747e33f63472c056d27112912e4d.jpg",
       "PackagePath": "staticwebassets\\img\\product\\z5049121325629_3e1f747e33f63472c056d27112912e4d.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121356631_bd4706e5edbff607518696385f53071a.jpg",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\z5049121356631_bd4706e5edbff607518696385f53071a.jpg",
       "PackagePath": "staticwebassets\\img\\product\\z5049121356631_bd4706e5edbff607518696385f53071a.jpg"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\js\\site.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\2022\\css\\kendo-ui-2022-r2.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\2022\\css\\kendo-ui-2022-r2.css",
       "PackagePath": "staticwebassets\\lib\\2022\\css\\kendo-ui-2022-r2.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\2022\\js\\jquery.min-v3.3.1.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\2022\\js\\jquery.min-v3.3.1.js",
       "PackagePath": "staticwebassets\\lib\\2022\\js\\jquery.min-v3.3.1.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\2022\\js\\jszip.min.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\2022\\js\\jszip.min.js",
       "PackagePath": "staticwebassets\\lib\\2022\\js\\jszip.min.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\2022\\js\\kendo.all.min-v2022.2.510.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\2022\\js\\kendo.all.min-v2022.2.510.js",
       "PackagePath": "staticwebassets\\lib\\2022\\js\\kendo.all.min-v2022.2.510.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\2022\\js\\kendo.messages.vi-VN.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\2022\\js\\kendo.messages.vi-VN.js",
       "PackagePath": "staticwebassets\\lib\\2022\\js\\kendo.messages.vi-VN.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

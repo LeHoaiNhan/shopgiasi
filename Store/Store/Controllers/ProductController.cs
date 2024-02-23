@@ -17,9 +17,6 @@ namespace Store.Controllers
         }
 
         [Route("chi-tiet-san-pham/{nameProduct}/{id}")]
-        [Route("Nails/chi-tiet-san-pham/{nameProduct}/{id}")]
-        [Route("Kids/chi-tiet-san-pham/{nameProduct}/{id}")]
-        [Route("Drinks/chi-tiet-san-pham/{nameProduct}/{id}")]
         [Route("Home/chi-tiet-san-pham/{nameProduct}/{id}")]
         public IActionResult ProductDetail(int ?id)
         {
