@@ -33,7 +33,7 @@
     <div class="col-12 col-md-4 col-lg-3" id="listCategory" style="border-radius:0.25rem">
     </div>
     <div class="col-12 col-md-8 col-lg-9">
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="listProduction"> </div>
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="listProduction"> </div> 
         <div><button onclick="loadmore()">load more</button></div>
     </div>
 </div>
@@ -114,7 +114,7 @@
                 if (result.length > 0) {
                     let _child = '';
                     for (let i = 0; i < result.length; i++) {
-                        _child += " <div class='col mb-5' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "'>"
+                        _child += " <div class='col' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "'>"
                             + " <div class='card h-100' >                                                                                    "
                             + " <img class='card-img-top' style='max-height: 300px' src='" + result[i].img + "' alt='" + result[i].URLProduct + "'/>"
                             + " <div class='card-body p-4' >                                                                                 "
@@ -153,7 +153,7 @@
                 if (result.length > 0) {
                     let _child = '';
                     for (let i = 0; i < result.length; i++) {
-                        _child += " <div class='col mb-5' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "'>"
+                        _child += " <div class='col' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "'>"
                             + " <div class='card h-100' >                                                                                    "
                             + " <img class='card-img-top' style='max-height: 300px' src='" + result[i].img + "' alt='" + result[i].URLProduct + "'/>"
                             + " <div class='card-body p-4' >                                                                                 "

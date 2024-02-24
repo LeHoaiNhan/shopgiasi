@@ -81,12 +81,11 @@
                 alert("Lỗi load ProductReview!")
             }
         });
-        var ratio = 6 / window.devicePixelRatio;
+        var ratio = Math.floor(5 / window.devicePixelRatio);
         $('.ProductReview').slick({
             slidesToShow: ratio,
-           // slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 1000,
+            autoplaySpeed: 1500,
             prevArrow: false,
             nextArrow: false
         }); 
