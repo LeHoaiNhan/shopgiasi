@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IvDTjXzZ9b5rWBgBa5m2Xc6tlCJ0HpbiBkYCjYDARec=",
+  "Hash": "CHZVF87oPXghUziH5JwCAfQmi9qbu1/K9Tb5vPj7Qm8=",
   "Source": "Store",
   "BasePath": "_content/Store",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\About\\about-img.jpg",
+      "SourceId": "Store",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\",
+      "BasePath": "_content/Store",
+      "RelativePath": "img/About/about-img.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\About\\about-img.jpg"
     },
     {
       "Identity": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\6c757d.jpg",
