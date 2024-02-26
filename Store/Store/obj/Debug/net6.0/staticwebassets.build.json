@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CHZVF87oPXghUziH5JwCAfQmi9qbu1/K9Tb5vPj7Qm8=",
+  "Hash": "Puv/h+yLRzZvuyb8CZEt/nfwOmv40+MZNzeBuWlyCS8=",
   "Source": "Store",
   "BasePath": "_content/Store",
   "Mode": "Default",
@@ -49,40 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\github\\shopgiasi\\Store\\Store\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Store.bundle.scp.css"
-    },
-    {
-      "Identity": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\css\\site.css",
-      "SourceId": "Store",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\",
-      "BasePath": "_content/Store",
-      "RelativePath": "css/site.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\css\\theme.css",
-      "SourceId": "Store",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\",
-      "BasePath": "_content/Store",
-      "RelativePath": "css/theme.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\theme.css"
     },
     {
       "Identity": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\favicon.ico",
