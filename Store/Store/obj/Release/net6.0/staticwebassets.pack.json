@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\About\\about-img.jpg",
+      "PackagePath": "staticwebassets\\img\\About\\about-img.jpg"
+    },
+    {
       "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\6c757d.jpg",
       "PackagePath": "staticwebassets\\img\\product\\6c757d.jpg"
     },

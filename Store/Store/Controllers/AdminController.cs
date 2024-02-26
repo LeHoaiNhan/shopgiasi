@@ -1,7 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting.Server;
+﻿
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
 using Store.Models;
 using Store.Models.AppDbContext; 
 namespace Store.Controllers
