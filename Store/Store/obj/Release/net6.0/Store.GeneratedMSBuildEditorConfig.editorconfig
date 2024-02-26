@@ -20,10 +20,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/github/shopgiasi/Store/Store/Views/Drinks/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/github/shopgiasi/Store/Store/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,14 +30,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/github/shopgiasi/Store/Store/Views/Home/Store.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdG9yZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/github/shopgiasi/Store/Store/Views/Kids/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2lkc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/github/shopgiasi/Store/Store/Views/Nails/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFpbHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/github/shopgiasi/Store/Store/Views/Product/ProductDetail.cshtml]
