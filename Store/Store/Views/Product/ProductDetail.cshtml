@@ -2,16 +2,14 @@
 @{
     ViewData["Title"] = "Chi tiết sản phẩm";
 
-}
-
-@* <input hidden id="CategoryID" value="@Model.CategoryID" /> *@
+} 
 <div class="card">
     <!-- Product section-->
     <section class="py-5">
-        <div class="container px-4 px-lg-5 my-5">
+        <div class="px-4 px-lg-5 my-5">
             <div class="row gx-4 gx-lg-5 align-items-center">
-                <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" id="img" alt="..." /></div>
-                <div class="col-md-6">
+                <div class="col-md-5"><img class="card-img-top mb-5 mb-md-0" id="img" alt="..." /></div>
+                <div class="col-md-7">
                     <div >SKU: BST-498</div>
                     <h1 class="display-5 fw-bolder" id="product_name">Shop item template</h1>
                     <div class="fs-5 mb-5">
@@ -31,80 +29,58 @@
         </div>
     </section>
 </div>
-<!-- Related items section-->
-<section class="py-5 bg-light">
-    <div class="container px-4 px-lg-5 mt-5">
-        <h2 class="fw-bolder mb-4">Related products</h2>
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="listProduction"> 
-        </div>
-    </div>
-</section>
+<!-- Related items section--> 
+<div id="ProductReview"></div> 
+<input id="IDProduct" value="@Model.ID" hidden />
 <!-- Footer-->
 <footer class="py-5 bg-dark">
     <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
 </footer>
 
-<input id="IDProduct" value="@ViewBag.IDProduct" hidden />
 <script>
      
-    let productMax = 0;
-    $(document).ready(function () {
-        document.getElementById("menu_1").style.fontWeight = "bold"
-        loadDataDetail();
+let productMax = 0;
+$(document).ready(function () {
+    document.getElementById("menu_1").style.fontWeight = "bold"
+    loadDataDetail();
 
-    });
-    function loadDataDetail() { 
+});
+    function loadDataDetail() {
         var _url = window.location.origin.toString() + "/product/listProductDetail/" + $("#IDProduct").val();
         $.ajax({
             url: _url,
             success: function (result) {
                 document.getElementById("product_name").innerHTML = result[0].Name
-				document.getElementById("product_price").innerHTML = result[0].Price
-				document.getElementById("product_description").innerHTML = result[0].Description
-                document.getElementById("img").src = result[0].img  
-            }
-        }); 
-        listProduct(); 
-    } 
-    function listProduct() {
-        check = 0;
-        $.ajax({
-            url: "/Home/listProduct",
-            async: false,
-            data: { "maxID": 0, "numberCount": 8, CategoryID: $('#CategoryID').val(), Type: 1 }
-            , success: function (result) {
-                if (result.length > 0) {
-                    let _child = '';
-                    for (let i = 0; i < result.length; i++) {
-                        _child += " <div class='col' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "'>"
-                            + " <div class='card h-100' >                                                                                    "
-                            + " <img class='card-img-top' style='max-height: 300px' src='" + result[i].img + "' alt='" + result[i].URLProduct + "'/>"
-                            + " <div class='card-body p-4' >                                                                                 "
-                            + " <div class='text-center' >                                                                                   "
-                            + " <h5 class='fw-bolder' >  " + result[i].Name + " </h5>                                                                  "
-                            + " $40.00 - >" + result[i].Price + "                                                                                              "
-                            + " </div>                                                                                                       "
-                            + " </div>                                                                                                       "
-                            + " <div class='card-footer p-4 pt-0 border-top-0 bg-transparent' >                                              "
-                            + " <div class='text-center' > <a class='btn btn-outline-dark mt-auto' href = '#' > View options </a></div>      "
-                            + " </div>                                                                                                       "
-                            + " </div>  </a>                                                                                                 "
-                            + " </div>                                                                                                       "
-                    }
-                    document.getElementById("listProduction").innerHTML = _child;
-                    productMax = result[result.length - 1].ID
-                    check = 1;
-                } else {
-                    alert("Không sản phẩm nào được tìm thấy!")
-                    check = 0;
-                }
-
+                document.getElementById("product_price").innerHTML = result[0].Price
+                document.getElementById("product_description").innerHTML = result[0].Description
+                document.getElementById("img").src = result[0].img
             }
         });
+        $.ajax({
+            url: "/Home/ProductReview",
+            async: false,
+            success: function (result) {
+                if (result.length > 0) {
+                    var _child = Template_ProductReview(result);
+                    $('#ProductReview').append(_child);
+                } else {
+                    alert("Không tìm thấy danh sảm phẩm!")
+                }
+
+            }, error: function (err) {
+                console.log(err);
+                alert("Lỗi load ProductReview!")
+            }
+        });
+        var ratio = Math.floor(5 / window.devicePixelRatio);
+        $('.ProductReview').slick({
+            slidesToShow: ratio,
+            autoplay: true,
+            autoplaySpeed: 111500,
+            prevArrow: false,
+            nextArrow: false
+        });
     }
-
-
-
 
 </script> 
  

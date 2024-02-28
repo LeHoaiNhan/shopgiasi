@@ -1,7 +1,10 @@
 ﻿
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Store.Models;
-using Store.Models.AppDbContext; 
+using Store.Models.AppDbContext;
+using System.Data;
+
 namespace Store.Controllers
 {
     public class AdminController : Controller
@@ -15,8 +18,8 @@ namespace Store.Controllers
         public IActionResult Admin()
         {
             return View();
-        }
-        public async Task<ActionResult> CreateProduct([FromForm]Img model)
+        } 
+        public async Task<ActionResult> UpdateProduct([FromForm]Img model)
         {
             try
             { 

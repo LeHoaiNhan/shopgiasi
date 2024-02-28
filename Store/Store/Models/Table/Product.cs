@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Drawing;
 
 namespace Store.Models.Table
 {
@@ -55,6 +56,5 @@ namespace Store.Models.Table
         public string? img4 { get; set; }
         public string? img5 { get; set; } 
     }
-
-    
+     
 }
