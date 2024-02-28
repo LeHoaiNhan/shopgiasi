@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ozktRrOjKG76JtiDwaZ0Tcrb3Eunx0DDt03p9zG+7pc=",
+  "Hash": "xAFIW8+ieSBuarmS/kx2WsVKCHLnv4sVcW+E3O01oGQ=",
   "Source": "Store",
   "BasePath": "_content/Store",
   "Mode": "Default",
@@ -1035,23 +1035,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Identity": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "Store",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\",
-      "BasePath": "_content/Store",
-      "RelativePath": "lib/jquery/LICENSE.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }

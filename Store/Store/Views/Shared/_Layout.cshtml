@@ -109,7 +109,7 @@ a:hover {
                     + "            <a href='chi-tiet-san-pham/" + key[i2].URLProduct + "/" + key[i2].ID + "'> </a>"
                     + "            <div class='card h-100'>"
                     + "                <a href = 'chi-tiet-san-pham/" + key[i2].URLProduct + "/" + key[i2].ID + "'>"
-                    + "                    <img class='card-img-top'  width='100%' style='aspect-ratio:450/300; object-fit:cover;' src = '" + key[i2].img + "' alt = '" + key[i2].URLProduct + "'>"
+                    + "                    <img class='card-img-top'  width='100%' style='aspect-ratio:450/300; object-fit:fill;' src = '" + key[i2].img + "' alt = '" + key[i2].URLProduct + "'>"
                     + "                    <div class='card-body p-4'>"
                     + "                        <div class='text-center'>"
                     + "                            <h5 class='fw-bolder'> " + key[i2].Name + " </h5> " + key[i2].Price
@@ -132,7 +132,7 @@ a:hover {
         for (let i = 0; i < result.length; i++) {
             _child += " <div class='col' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "'>"
                 + " <div class='card h-100' >                                                                                    "
-                + " <img class='card-img-top' width='100%' style='aspect-ratio:450/300; object-fit:cover;' src='" + result[i].img + "' alt='" + result[i].URLProduct + "'/>"
+                + " <img class='card-img-top' width='100%' style='aspect-ratio:450/300; object-fit:fill;' src='" + result[i].img + "' alt='" + result[i].URLProduct + "'/>"
                 + " <div class='card-body p-4' >                                                                                 "
                 + " <div class='text-center' >                                                                                   "
                 + " <h5 class='fw-bolder' >  " + result[i].Name + " </h5>VNĐ" + result[i].Price 
