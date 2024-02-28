@@ -111,24 +111,8 @@
             async: false,
             data: { "maxID": productMax, "numberCount": 8, CategoryID: $('#CategoryID').val(), PageID: $('#PageID').val() }
             , success: function (result) {
-                if (result.length > 0) {
-                    let _child = '';
-                    for (let i = 0; i < result.length; i++) {
-                        _child += " <div class='col' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "'>"
-                            + " <div class='card h-100' >                                                                                    "
-                            + " <img class='card-img-top' style='max-height: 300px' src='" + result[i].img + "' alt='" + result[i].URLProduct + "'/>"
-                            + " <div class='card-body p-4' >                                                                                 "
-                            + " <div class='text-center' >                                                                                   "
-                            + " <h5 class='fw-bolder' >  " + result[i].Name + " </h5>                                                                  "
-                            + " $40.00 - >" + result[i].Price + "                                                                                              "
-                            + " </div>                                                                                                       "
-                            + " </div>                                                                                                       "
-                            + " <div class='card-footer p-4 pt-0 border-top-0 bg-transparent' >                                              "
-                            + " <div class='text-center' > <a class='btn btn-outline-dark mt-auto' href = '#' > Chi Tiết </a></div>      "
-                            + " </div>                                                                                                       "
-                            + " </div>  </a>                                                                                                 "
-                            + " </div>                                                                                                       "
-                    }
+                if (result.length > 0) { 
+                    var _child = Template_ListProduct(result)
                     $('#listProduction').append(_child);
                     productMax = productMax + result[result.length - 1].ID
                     check = 1;
@@ -150,24 +134,8 @@
             async: false,
             data: { maxID: 0, numberCount: 8, CategoryID: $('#CategoryID').val(), PageID: $('#PageID').val() }
             , success: function (result) {
-                if (result.length > 0) {
-                    let _child = '';
-                    for (let i = 0; i < result.length; i++) {
-                        _child += " <div class='col' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "'>"
-                            + " <div class='card h-100' >                                                                                    "
-                            + " <img class='card-img-top' style='max-height: 300px' src='" + result[i].img + "' alt='" + result[i].URLProduct + "'/>"
-                            + " <div class='card-body p-4' >                                                                                 "
-                            + " <div class='text-center' >                                                                                   "
-                            + " <h5 class='fw-bolder' >  " + result[i].Name + " </h5>                                                                  "
-                            + " $40.00 - >" + result[i].Price + "                                                                                              "
-                            + " </div>                                                                                                       "
-                            + " </div>                                                                                                       "
-                            + " <div class='card-footer p-4 pt-0 border-top-0 bg-transparent' >                                              "
-                            + " <div class='text-center' > <a class='btn btn-outline-dark mt-auto' href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "' > Chi Tiết </a></div> "
-                            + " </div>                                                                                                       "
-                            + " </div>  </a>                                                                                                 "
-                            + " </div>                                                                                                       "
-                    }
+                if (result.length > 0) { 
+                    var _child = Template_ListProduct(result) 
                     document.getElementById("listProduction").innerHTML = _child;
                     productMax = result[result.length - 1].ID
                     check = 1;

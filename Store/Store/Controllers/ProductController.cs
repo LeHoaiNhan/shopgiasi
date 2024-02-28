@@ -1,6 +1,7 @@
 ﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Store.Models;
 using Store.Models.AppDbContext; 
 
 namespace Store.Controllers
@@ -18,9 +19,9 @@ namespace Store.Controllers
         [Route("chi-tiet-san-pham/{nameProduct}/{id}")]
         [Route("Home/chi-tiet-san-pham/{nameProduct}/{id}")]
         public IActionResult ProductDetail(int ?id)
-        {
-            ViewBag.IDProduct = id; 
-            return View();
+        { 
+            var product = _context.Product.FirstOrDefault(m => m.ID == id); 
+            return View(product);
         }
         [HttpGet]
         public async Task<ActionResult> listProductDetail(int id=0)

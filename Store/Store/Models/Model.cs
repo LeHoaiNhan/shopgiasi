@@ -3,7 +3,7 @@
     public class HomeModel
     {
         public int CategoryID { get; set; }
-        public int PageID { get; set; } = 1;
+        public int PageID { get; set; } = 0;
     }
 
     public class Img

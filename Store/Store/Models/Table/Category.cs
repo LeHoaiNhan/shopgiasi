@@ -6,7 +6,8 @@ namespace Store.Models.Table
     {
         [Key] public int ID { get; set; }
         public string Name { get; set; }
-        public string URLCategory { get; set; } 
+        public string URLCategory { get; set; }
+        public int PageID { get; set; }
     }
     public class CategoryJoinProduct
     {

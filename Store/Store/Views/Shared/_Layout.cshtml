@@ -6,10 +6,7 @@
     <title>@ViewData["Title"] - Eratown Q.7 HCM</title>
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css" /> 
-      
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-
     <script src="~/lib/2022/js/jquery.min-v3.3.1.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -18,7 +15,29 @@
     @await RenderSectionAsync("Scripts", required: false)
 </head>
 <body style="background-color:#e0e0e0">
-    <div class="justify-content-center"><a href="tel:#"><img src="callme.jpg" alt="Call 5551234567" /></a></div>
+    <div class="top-bar">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div style="display: flex;margin: 0;padding: 10px 0;justify-content: center;">
+                        <div style="padding: 0 4.2%;">
+                            <a asp-controller="Home" asp-action="Privacy">
+                                <img src="https://file.hstatic.net/1000075078/file/vector_706a88566eab4f009bed6eea93cd890b.png">
+                                <span>Era block A4 - Tầng G</span>
+                            </a>
+                        </div>
+                        <div style="padding: 0 4.2%;">
+                            <a href="tel:0932108990">
+                                <img src="https://file.hstatic.net/1000075078/file/group_8de276faa50c486b9d485826c506803b.png">
+                                <span>Đặt hàng: 0932.108.990</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
     <header style="position:sticky;top:0rem;z-index:1000">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style="background: rgba(255, 255, 255, 0.8) !important;">
             <div class="container-fluid">
@@ -43,13 +62,13 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
     <footer class="border-top footer text-muted">
-        <div class="container">
+        <div>
             &copy; 2024 - TrangNails - A4.Eratown.Q7
         </div>
     </footer>
@@ -68,3 +87,63 @@ a:hover {
     background-color: mintcream !important;
 }
 </style>
+
+
+<script>
+    function Template_ProductReview(result) {
+        let _child = '';
+        var _Object = result.reduce(function (r, a) {
+            r[a.PageID] = r[a.PageID] || [];
+            r[a.PageID].push(a);
+            return r;
+        }, Object.create(null));
+
+        for (let i = 0; i < Object.keys(_Object).length; i++) {
+            var key = _Object[Object.keys(_Object)[i]]
+            _child = "<section class='bg-light'>"
+                + "<div class='container mt-4'>"
+                + "<h2 class='fw-bolder p-2'><a href='Home/Store?PageID=" + key[0].PageID + "&CategoryID=" + key[0].CategoryID + "'>" + key[0].PageName + "</a></h2>"
+                + "<div class='ProductReview'>"
+            for (let i2 = 0; i2 < key.length; i2++) {
+                _child += "     <div class='col-2 col-md-3 col-xl-4 mb-5' "
+                    + "            <a href='chi-tiet-san-pham/" + key[i2].URLProduct + "/" + key[i2].ID + "'> </a>"
+                    + "            <div class='card h-100'>"
+                    + "                <a href = 'chi-tiet-san-pham/" + key[i2].URLProduct + "/" + key[i2].ID + "'>"
+                    + "                    <img class='card-img-top'  width='100%' style='aspect-ratio:450/300; object-fit:cover;' src = '" + key[i2].img + "' alt = '" + key[i2].URLProduct + "'>"
+                    + "                    <div class='card-body p-4'>"
+                    + "                        <div class='text-center'>"
+                    + "                            <h5 class='fw-bolder'> " + key[i2].Name + " </h5> " + key[i2].Price
+                    + "                        </div></div></a>"
+                    + "                <div class='card-footer p-4 pt-0 border-top-0 bg-transparent'>"
+                    + "                    <a href='" + key[i2].URLProduct + "'></a>"
+                    + "                    <div class='text-center'>"
+                    + "                        <a href='" + key[i2].URLProduct + "'> </a>"
+                    + "                        <a class='btn btn-outline-dark mt-auto' href = '" + key[i2].URLProduct + "'> Chi Tiết </a>"
+                    + "</div></div></div></div>"
+
+            }
+            _child += "</div></div></section>"
+        } 
+        return _child;
+    }
+
+    function Template_ListProduct(result) {
+        let _child = '';
+        for (let i = 0; i < result.length; i++) {
+            _child += " <div class='col' ><a href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "'>"
+                + " <div class='card h-100' >                                                                                    "
+                + " <img class='card-img-top' width='100%' style='aspect-ratio:450/300; object-fit:cover;' src='" + result[i].img + "' alt='" + result[i].URLProduct + "'/>"
+                + " <div class='card-body p-4' >                                                                                 "
+                + " <div class='text-center' >                                                                                   "
+                + " <h5 class='fw-bolder' >  " + result[i].Name + " </h5>VNĐ" + result[i].Price 
+                + " </div>                                                                                                       "
+                + " </div>                                                                                                       "
+                + " <div class='card-footer p-4 pt-0 border-top-0 bg-transparent' >                                              "
+                + " <div class='text-center' > <a class='btn btn-outline-dark mt-auto' href='chi-tiet-san-pham/" + result[i].URLProduct + "/" + result[i].ID + "' > Chi Tiết </a></div> "
+                + " </div>                                                                                                       "
+                + " </div>  </a>                                                                                                 "
+                + " </div>                                                                                                       "
+        }
+        return _child;
+    }
+</script>

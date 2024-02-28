@@ -19,7 +19,7 @@
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\img\Menu\" />
     <Folder Include="wwwroot\img\Panner\" />
-    <Folder Include="wwwroot\img\product\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
 </Project>

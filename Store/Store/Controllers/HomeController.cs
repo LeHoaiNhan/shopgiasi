@@ -28,6 +28,12 @@ namespace Store.Controllers
         }
         public IActionResult Store(HomeModel model)
         {
+            if (model.PageID == 0)
+            {
+                var result = _context.Category.FirstOrDefault();
+                model.PageID = result.PageID;
+                model.CategoryID = result.ID; 
+            }
             return View(model);
         }
         
@@ -51,7 +57,7 @@ namespace Store.Controllers
         {
             try
             {
-                var result = await _context.CategoryJoinProduct.FromSqlRaw($"SELECT C.ID,C.Name,COUNT(P.ID) ProductNumber,c.URLCategory FROM dbo.Category C LEFT JOIN dbo.Product P ON P.CategoryID = C.ID where c.PageID={PageID} GROUP BY  C.ID,C.Name,c.URLCategory").ToListAsync();
+                var result = await _context.CategoryJoinProduct.FromSqlRaw($"SELECT C.ID,C.Name,COUNT(P.ID) ProductNumber,c.URLCategory FROM dbo.Page p JOIN dbo.Category c ON p.id=c.PageID AND c.PageID={PageID} JOIN dbo.Product pd ON pd.CategoryID =c.id  GROUP BY  C.ID,C.Name,c.URLCategory").ToListAsync();
                 return Ok(result); 
             }
             catch (Exception ex)
@@ -61,11 +67,11 @@ namespace Store.Controllers
         }
 
         #endregion
-        public ActionResult<List<Page>> listPage()
+        public ActionResult<List<PageView>> listPage()
         {
             try
             {
-                var result =  _context.Page.ToList();
+                var result =  _context.PageView.FromSqlRaw($"SELECT P.ID,P.Name,COUNT(C.ID) PageNumber FROM dbo.Page p JOIN ( SELECT DISTINCT C.ID,c.PageID FROM dbo.Category c JOIN dbo.Product pd ON pd.CategoryID =c.id ) C ON C.PageID=P.ID GROUP BY  P.ID,P.Name").ToList();
                 return Ok(result);
             }
             catch (Exception ex)

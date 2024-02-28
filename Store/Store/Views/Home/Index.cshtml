@@ -36,42 +36,8 @@
             async: false,
             success: function (result) {  
                 if (result.length > 0) {
-                    let _child = '';
-                    var _Object = result.reduce(function (r, a) {
-                        r[a.PageID] = r[a.PageID] || [];
-                        r[a.PageID].push(a);
-                        return r;
-                    }, Object.create(null)); 
-                     
-                    for (let i = 1; i <= Object.keys(_Object).length; i++) {
-                        _child = "<section class='bg-light'>"
-                            +"<div class='container mt-4'>"
-                            + "<h2 class='fw-bolder p-2'><a href='Home/Store?PageID=" + _Object[i][0].PageID + "&CategoryID=" + _Object[i][0].CategoryID + "'>" + _Object[i][0].PageName + "</a></h2>"
-                            + "<div class='ProductReview'>"
-                        for (let i2 = 0; i2 < _Object[i].length; i2++) {
-                            _child += "     <div class='col-2 col-md-3 col-xl-4 mb-5' "//style='max-width: 250px !important'>                                                                                                     "
-                                +"            <a href='chi-tiet-san-pham/" + _Object[i][i2].URLProduct + "/" + _Object[i][i2].ID + "'> </a>                                                                      "
-                                +"            <div class='card h-100'>                                                                                                "
-                                +"                <a href = 'chi-tiet-san-pham/" + _Object[i][i2].URLProduct + "/" + _Object[i][i2].ID + "'>                                                                     "
-                                +"                    <img class='card-img-top' style = 'max-height: 300px' src = '" + _Object[i][i2].img + "' alt = '" + _Object[i][i2].URLProduct + "'>   "
-                                +"                    <div class='card-body p-4'>                                                                                     "
-                                +"                        <div class='text-center'>                                                                                   "
-                                +"                            <h5 class='fw-bolder'> " + _Object[i][i2].Name + " </h5> " + _Object[i][i2].Price + "                                            "
-                                +"                        </div></div></a>                                                                                            "
-                                +"                <div class='card-footer p-4 pt-0 border-top-0 bg-transparent'>                                                      "
-                                +"                    <a href='" + _Object[i][i2].URLProduct + "'></a>                                                               "
-                                +"                    <div class='text-center'>                                                                                       "
-                                +"                        <a href='" + _Object[i][i2].URLProduct + "'> </a>                                                          "
-                                +"                        <a class='btn btn-outline-dark mt-auto' href = '" + _Object[i][i2].URLProduct + "'> Chi Tiết </a>          "
-                                +"                    </div></div></div></div>                                                                                        "
-   
-                            }
-                        _child += "</div></div></section>"
-                        $('#ProductReview').append(_child);
-                    }
-
-
-                    
+                    var _child = Template_ProductReview(result);
+                    $('#ProductReview').append(_child);
                 } else {
                     alert("Không tìm thấy danh sảm phẩm!")  
                 }
@@ -91,4 +57,7 @@
         }); 
 
     });
+
+
+    
 </script>

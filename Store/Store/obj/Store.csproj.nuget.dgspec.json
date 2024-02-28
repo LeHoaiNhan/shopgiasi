@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://repo-isc.fpt.net/repository/customer-accounts-receivable/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
