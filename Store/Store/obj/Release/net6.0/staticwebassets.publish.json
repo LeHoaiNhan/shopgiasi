@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GiaJJZIWb1j+NvS2FpsZkuzh120LTq2lksY5ZUq5qnQ=",
+  "Hash": "SC5A9tGgctkLUy+NN4e6QVT7HaPT0q4VWV5xuSpCGr8=",
   "Source": "Store",
   "BasePath": "_content/Store",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\github\\shopgiasi\\Store\\Store\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Store.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\css\\Style.css",
+      "SourceId": "Store",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\",
+      "BasePath": "_content/Store",
+      "RelativePath": "css/Style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Style.css"
     },
     {
       "Identity": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\favicon.ico",
@@ -134,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\product\\a.jpeg"
+    },
+    {
+      "Identity": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\Phomaique.png",
+      "SourceId": "Store",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\",
+      "BasePath": "_content/Store",
+      "RelativePath": "img/product/Phomaique.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\Phomaique.png"
     },
     {
       "Identity": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\lib\\2022\\css\\kendo-ui-2022-r2.css",

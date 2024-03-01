@@ -29,5 +29,22 @@ namespace Store.Controllers
             var result = await _context.Product.FromSqlRaw($"SELECT TOP 1 * FROM dbo.Product  WHERE ID = {id}").ToListAsync();
             return Ok(result);
         }
+        public IActionResult ListMenu(int PageID)
+        {
+            try
+            {
+                var query = @"SELECT P.ID PageID, p.Name PageName,c.Name CategoryName, PD.* FROM dbo.Page P JOIN dbo.Category C ON P.ID= C.PageID JOIN dbo.Product PD ON  PD.CategoryID = C.ID and p.id=" + PageID;
+                var result = _context.ProductView.FromSqlRaw(query).OrderBy(q => q.Name).ToList();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        
+
+            
     }
 }

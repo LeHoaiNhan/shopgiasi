@@ -48,7 +48,7 @@ namespace Store.Controllers
 
         public async Task<ActionResult<List<ProductJoinCategory>>> listProduct(int maxID = 0, int numberCount = 0, int CategoryID = 0,int PageID=0)
         {
-            var result = await _context.Product.FromSqlRaw($"SELECT TOP {numberCount} P.*,C.URLCategory FROM dbo.Product P JOIN Category C on P.CategoryID = C.ID WHERE P.ID >"+ maxID + " AND c.id=CASE WHEN " + CategoryID + "=0 THEN c.id ELSE " + PageID + " end and c.PageID=CASE WHEN " + PageID + "=0 THEN c.PageID ELSE " + PageID + " end").ToListAsync();
+            var result = await _context.Product.FromSqlRaw($"SELECT TOP {numberCount} P.*,C.URLCategory FROM dbo.Product P JOIN Category C on P.CategoryID = C.ID WHERE P.ID >"+ maxID + " AND c.id=CASE WHEN " + CategoryID + "=0 THEN c.id ELSE " + CategoryID + " end and c.PageID=CASE WHEN " + PageID + "=0 THEN c.PageID ELSE " + PageID + " end").ToListAsync();
             return Ok(result);
         }
         #endregion
@@ -84,7 +84,7 @@ namespace Store.Controllers
         {
             try
             {
-                var query = @"SELECT P.ID PageID,p.Name PageName,PD.* FROM dbo.Page P JOIN dbo.Category C ON P.ID=C.PageID JOIN dbo.Product PD ON C.ID=PD.CategoryID";
+                var query = @"SELECT P.ID PageID,p.Name PageName,c.name CategoryName,PD.* FROM dbo.Page P JOIN dbo.Category C ON P.ID=C.PageID JOIN dbo.Product PD ON C.ID=PD.CategoryID";
                 var result = _context.ProductView.FromSqlRaw(query).OrderBy(q => Guid.NewGuid()).Take(80).ToList();
                 return Ok(result);
             }
@@ -92,8 +92,7 @@ namespace Store.Controllers
             {
                 return BadRequest(ex.Message);
             }
-        }
-
+        } 
 
     }
 }

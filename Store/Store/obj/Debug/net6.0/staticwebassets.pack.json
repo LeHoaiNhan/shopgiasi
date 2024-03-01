@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Store.bundle.scp.css"
     },
     {
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\css\\Style.css",
+      "PackagePath": "staticwebassets\\css\\Style.css"
+    },
+    {
       "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\6c757d.jpg",
       "PackagePath": "staticwebassets\\img\\product\\6c757d.jpg"
+    },
+    {
+      "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\Phomaique.png",
+      "PackagePath": "staticwebassets\\img\\product\\Phomaique.png"
     },
     {
       "Id": "D:\\github\\shopgiasi\\Store\\Store\\wwwroot\\img\\product\\a.jpeg",

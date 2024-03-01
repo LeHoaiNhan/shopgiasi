@@ -7,13 +7,13 @@
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="padding-bottom: 2vh;">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <div style="background-color:grey;height:40vh;"></div>
+            <div style="background-color:grey;height:30vh;"></div>
         </div>
         <div class="carousel-item">
-            <div style="background-color:black;height:40vh;"></div>
+            <div style="background-color:black;height:30vh;"></div>
         </div>
         <div class="carousel-item">
-            <div style="background-color:#aaddcc;height:40vh;"></div>
+            <div style="background-color:#aaddcc;height:30vh;"></div>
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -24,17 +24,18 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
-</div>
+</div> 
 <div style="background: rgba(255, 255, 255, 0.8);position:sticky;top:4rem;z-index:100;">
     <div class="d-flex justify-content-start" id="listPage"> 
     </div>
-</div>
+</div> 
+<div class="listmenu bd-content" id="ListMenu"></div>
 <div class="row" style="padding-top: 1vh;">
     <div class="col-12 col-md-4 col-lg-3" id="listCategory" style="border-radius:0.25rem">
     </div>
     <div class="col-12 col-md-8 col-lg-9">
         <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="listProduction"> </div> 
-        <div><button onclick="loadmore()">load more</button></div>
+        <div><button type="button" class="btn btn-light" onclick="loadmore()" style="width: 100%;">load more</button></div>
     </div>
 </div>
 
@@ -64,6 +65,24 @@
         });
         Page_Click($('#PageID').val());
     });
+    function ListMenu() {
+        $.ajax({
+            url: "/Product/ListMenu",
+            data: { PageID: $('#PageID').val() },
+            async: false
+            , success: function (result) {
+                if (result.length > 0) {
+                    var _child = Template_ListMenu(result) 
+                    document.getElementById("ListMenu").innerHTML = _child;
+                } else {
+                    alert("Không tìm thấy danh Menu!")
+                }
+            }, error: function (err) {
+                console.log(err);
+                alert("Lỗi load Menu!")
+            }
+        });
+    }
     function Page_Click(PageID) {
         $.ajax({
             url: "/Home/listCategory",
@@ -92,6 +111,7 @@
             }
         });
         listProduct();
+        ListMenu();
     }
     function Category_Click(CategoryID) {
         $('#CategoryID').val(CategoryID)
@@ -151,3 +171,19 @@
         });
     }
 </script>
+
+<style>
+    .listmenu > ul {
+        list-style: none;
+        font-weight: bold; 
+        background-color: antiquewhite;
+        color: rgb(46, 22, 22);
+    }
+
+        .listmenu>ul>li>div>div>div{
+            display: flex;
+            justify-content: space-between;
+            font-weight: 600;
+            /* max-width: 240px; */
+        }
+</style>
