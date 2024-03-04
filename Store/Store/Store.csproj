@@ -7,18 +7,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\img\Menu\**" />
+    <Compile Remove="wwwroot\img\Panner\**" />
+    <Compile Remove="wwwroot\js\**" />
+    <Content Remove="wwwroot\img\Menu\**" />
+    <Content Remove="wwwroot\img\Panner\**" />
+    <Content Remove="wwwroot\js\**" />
+    <EmbeddedResource Remove="wwwroot\img\Menu\**" />
+    <EmbeddedResource Remove="wwwroot\img\Panner\**" />
+    <EmbeddedResource Remove="wwwroot\js\**" />
+    <None Remove="wwwroot\img\Menu\**" />
+    <None Remove="wwwroot\img\Panner\**" />
+    <None Remove="wwwroot\js\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.25" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.25">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\img\Menu\" />
-    <Folder Include="wwwroot\img\Panner\" />
-    <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
 </Project>

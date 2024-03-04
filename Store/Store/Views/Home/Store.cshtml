@@ -25,16 +25,16 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div> 
-<div style="background: rgba(255, 255, 255, 0.8);position:sticky;top:4rem;z-index:100;">
+<div class="rounded" style="background: rgba(255, 255, 255, 0.8);position:sticky;top:4rem;z-index:100;">
     <div class="d-flex justify-content-start" id="listPage"> 
     </div>
 </div> 
-<div class="listmenu bd-content" id="ListMenu"></div>
-<div class="row" style="padding-top: 1vh;">
+<div class="listmenu bd-content pt-2 rounded" id="ListMenu"></div>
+<div class="row g-2" style="padding-top: 1vh;">
     <div class="col-12 col-md-4 col-lg-3" id="listCategory" style="border-radius:0.25rem">
     </div>
     <div class="col-12 col-md-8 col-lg-9">
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="listProduction"> </div> 
+        <div class="row g-2 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="listProduction"> </div> 
         <div><button type="button" class="btn btn-light" onclick="loadmore()" style="width: 100%;">load more</button></div>
     </div>
 </div>
@@ -51,7 +51,7 @@
                 if (result.length > 0) {
                     let _child = '';
                     for (let i = 0; i < result.length; i++) {
-                         _child += "<button class='list-group-item' id='Page_" + result[i].ID + "' onclick='Page_Click(" + result[i].ID + ")'>" + result[i].Name +"</button>"
+                        _child += "<button class='list-group-item rounded m-1' id='Page_" + result[i].ID + "' onclick='Page_Click(" + result[i].ID + ")'>" + result[i].Name + "</button>"
                     }
                     document.getElementById("listPage").innerHTML = _child; 
                     document.getElementById("Page_" + $('#PageID').val()).className += " active";

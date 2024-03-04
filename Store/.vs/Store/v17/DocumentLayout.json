@@ -7,44 +7,48 @@
       "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\views\\drinks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\views\\drinks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\views\\home\\store.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\views\\home\\store.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\wwwroot\\css\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\wwwroot\\css\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\css\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Store\\wwwroot\\css\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\views\\nails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\views\\nails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Nails\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Store\\Views\\Nails\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\views\\kids\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\views\\kids\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Kids\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Store\\Views\\Kids\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|c:\\users\\k\\documents\\github\\aspnetcoreapi\\shopgiasi\\store\\store\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C11FD5C5-D937-4432-972F-468A10EB6DFD}|Store\\Store.csproj|solutionrelative:store\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Drinks\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Store\\Views\\Drinks\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,33 +62,32 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "theme.css",
-              "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\css\\theme.css",
-              "RelativeDocumentMoniker": "Store\\wwwroot\\css\\theme.css",
-              "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\css\\theme.css",
-              "RelativeToolTip": "Store\\wwwroot\\css\\theme.css",
-              "ViewState": "AQIAABsJAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-02-18T03:09:13.522Z",
+              "DocumentIndex": 2,
+              "Title": "Store.cshtml",
+              "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Home\\Store.cshtml",
+              "RelativeDocumentMoniker": "Store\\Views\\Home\\Store.cshtml",
+              "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Home\\Store.cshtml",
+              "RelativeToolTip": "Store\\Views\\Home\\Store.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwCMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-03T06:34:35.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Store\\Views\\Home\\Privacy.cshtml",
               "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "Store\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-18T03:01:33.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T03:01:33.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ProductDetail.cshtml",
               "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Product\\ProductDetail.cshtml",
               "RelativeDocumentMoniker": "Store\\Views\\Product\\ProductDetail.cshtml",
@@ -92,12 +95,11 @@
               "RelativeToolTip": "Store\\Views\\Product\\ProductDetail.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAI0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-18T03:00:32.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T03:00:32.005Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Nails\\Index.cshtml",
               "RelativeDocumentMoniker": "Store\\Views\\Nails\\Index.cshtml",
@@ -105,18 +107,17 @@
               "RelativeToolTip": "Store\\Views\\Nails\\Index.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-18T03:00:25.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T03:00:25.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Store\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Store\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA6AAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAG4AAACAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-18T02:59:17.468Z",
               "EditorCaption": ""
@@ -129,14 +130,14 @@
               "RelativeDocumentMoniker": "Store\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Store\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABAAAAAAAAAAAAApwB4AAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-18T02:59:00.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Kids\\Index.cshtml",
               "RelativeDocumentMoniker": "Store\\Views\\Kids\\Index.cshtml",
@@ -144,51 +145,11 @@
               "RelativeToolTip": "Store\\Views\\Kids\\Index.cshtml",
               "ViewState": "AQIAABYAAAAAAAAAAAApwCcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-18T02:58:32.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Drinks\\Index.cshtml",
-              "RelativeDocumentMoniker": "Store\\Views\\Drinks\\Index.cshtml",
-              "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Drinks\\Index.cshtml",
-              "RelativeToolTip": "Store\\Views\\Drinks\\Index.cshtml",
-              "ViewState": "AQIAABwAAAAAAAAAAAApwCUAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-18T02:58:17.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Store\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Store\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T02:48:01.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T02:58:32.106Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Program.cs",
-              "RelativeDocumentMoniker": "Store\\Program.cs",
-              "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Program.cs",
-              "RelativeToolTip": "Store\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T02:47:40.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\appsettings.json",
               "RelativeDocumentMoniker": "Store\\appsettings.json",
@@ -196,8 +157,55 @@
               "RelativeToolTip": "Store\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-18T02:52:23.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-18T02:52:23.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "theme.css",
+              "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\css\\theme.css",
+              "RelativeDocumentMoniker": "Store\\wwwroot\\css\\theme.css",
+              "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\wwwroot\\css\\theme.css",
+              "RelativeToolTip": "Store\\wwwroot\\css\\theme.css",
+              "ViewState": "AQIAABsJAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-02-18T03:09:13.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Drinks\\Index.cshtml",
+              "RelativeDocumentMoniker": "Store\\Views\\Drinks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Views\\Drinks\\Index.cshtml",
+              "RelativeToolTip": "Store\\Views\\Drinks\\Index.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAApwCUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-18T02:58:17.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Store\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Store\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T02:48:01.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Program.cs",
+              "RelativeDocumentMoniker": "Store\\Program.cs",
+              "ToolTip": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\shopgiasi\\Store\\Store\\Program.cs",
+              "RelativeToolTip": "Store\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T02:47:40.61Z"
             }
           ]
         }
